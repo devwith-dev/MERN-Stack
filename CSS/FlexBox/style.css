@@ -1,0 +1,48 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.container {
+  border: 5px solid red;
+  width: 1300px;
+  height: 900px;
+  display: flex;
+  /* when using display flex now the parent can control
+     the positioning of the elements */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.child1 {
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  flex-grow: 1 ;
+  order: 3;
+}
+
+.child2 {
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  color: white;
+  background-color: magenta;
+  flex-grow: 2;
+  order: 2;
+  align-self: flex-start;
+}
+
+.child3 {
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  color: white;
+  background-color: cyan;
+  flex-grow: 1 ;
+  order: 1;
+}

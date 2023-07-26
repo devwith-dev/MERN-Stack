@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/42a182743f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Responsive</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div>
+        <img src="./images/logo.png" alt="logo" />
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Posts</a>
+        </li>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="#">Register</a>
+        </li>
+        <li>
+          <a href="#" class="create-post-button">New Post</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="header-content">
+        <h1>You Write, We Read</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa</p>
+        <a href="#">
+          <span>Create New Post</span>
+        </a>
+      </div>
+    </header>
+    <!-- content -->
+    <section class="container-flex">
+      <!-- main (left posts) -->
+      <main>
+        <article class="post-content">
+          <h1>Why MERN Stack is on Hot Cake</h1>
+          <img src="./images/post2.jpg" class="post-image" alt="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2023-2-1">Feburary 15, 2023</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            numquam eaque autem earum, quasi cumque quae sed molestiae qui nemo
+            suscipit natus dignissimos voluptate. Distinctio accusantium
+            exercitationem cumque nesciunt eaque.
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+        <article class="post-content">
+          <h1>MERN Stack VS MEAN Stack</h1>
+          <img src="./images/post3.jpg" class="post-image" alt="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2023-2-1">Feburary 15, 2023</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            numquam eaque autem earum, quasi cumque quae sed molestiae qui nemo
+            suscipit natus dignissimos voluptate. Distinctio accusantium
+            exercitationem cumque nesciunt eaque.
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+        <article class="post-content">
+          <h1>The power of JavaScript</h1>
+          <img src="./images/post4.jpg" class="post-image" alt="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2023-2-1">Feburary 15, 2023</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            numquam eaque autem earum, quasi cumque quae sed molestiae qui nemo
+            suscipit natus dignissimos voluptate. Distinctio accusantium
+            exercitationem cumque nesciunt eaque.
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+      </main>
+      <!-- aside (right side)-->
+      <!-- Author Details -->
+      <aside class="sidebar">
+        <div class="about-me">
+          <h1>About The Author</h1>
+          <img src="./images/pic2.jpg" alt="author-image" />
+          <h2 class="about-name">Dev Aaryan</h2>
+          <small>FullStack Web Developer</small>
+          <p class="about-me-bio">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+            eveniet facere, laboriosam voluptatibus accusamus, omnis, possimus
+            amet at repellendus dolor aperiam tempora dolore ad architecto nisi
+            eligendi nemo debitis quae?
+          </p>
+        </div>
+        <article class="post-content">
+          <h1>Functionality of NodeJS</h1>
+          <img src="./images/post5.jpg" class="post-image" alt="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2023-2-1">Feburary 15, 2023</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            numquam eaque autem earum, quasi cumque quae sed molestiae qui nemo
+            suscipit natus dignissimos voluptate. Distinctio accusantium
+            exercitationem cumque nesciunt eaque.
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+        <article class="post-content">
+          <h1>Frontend VS Backend in JS</h1>
+          <img src="./images/post6.jpg" class="post-image" alt="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2023-2-1">Feburary 15, 2023</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            numquam eaque autem earum, quasi cumque quae sed molestiae qui nemo
+            suscipit natus dignissimos voluptate. Distinctio accusantium
+            exercitationem cumque nesciunt eaque.
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+        <article class="post-content">
+          <h1>How to use TailWind CSS</h1>
+          <img src="./images/post7.jpg" class="post-image" alt="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="">John Doe</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2023-2-1">Feburary 15, 2023</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            numquam eaque autem earum, quasi cumque quae sed molestiae qui nemo
+            suscipit natus dignissimos voluptate. Distinctio accusantium
+            exercitationem cumque nesciunt eaque.
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+      </aside>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="about">
+        <h1><span class="logo-text">JavaScript </span> <span>Academy</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <!-- Contacts -->
+        <div class="contacts">
+          <span>
+            <i class="fas fa-phone"></i>
+            +91-7584236578
+          </span>
+          <span>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:work.jsacademy@gmail.com">
+              work.jsacademy@gmail.com
+            </a>
+          </span>
+        </div>
+        <!-- Socials -->
+        <div class="socials">
+          <a href="https://www.youtube.com">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://www.instagram.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

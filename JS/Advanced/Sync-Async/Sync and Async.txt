@@ -1,0 +1,9 @@
+Syncronous code is executed in a linear fashion, one line at a time.
+Asynchronous code, ont he other hand, can be executed out of order or in parallel.
+
+Syncronous                            Asynchronous
+. Single threaded                    . Multi threaded
+. Code blocking                      . No blocking code
+. Handle one request at a time       . Handle multiple requests at a time
+. poor user experience               . Improve user experience
+

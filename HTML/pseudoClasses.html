@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      input:required {
+        background-color: white;
+        color: blue;
+      }
+      /* To change color of required feild when invalid entry or no entry */
+      input:invalid {
+        border-color: red;
+        border-radius: solid 20px;
+      }
+      /* Change to green for valid entry */
+      input:valid {
+        border-color: green;
+        border-radius: solid 4px;
+      }
+
+      input:in-range{
+        border: 4px solid green;
+      }
+
+      input:out-of-range{
+        border: 4px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- :required -->
+    <h2>Required</h2>
+    <input type="text" placeholder="Enter Name" required />
+
+    <!-- :in-range -->
+    <h2>In-Range</h2>
+    <input
+      style="width: 200px;"
+      type="number"
+      min="1"
+      max="30"
+      placeholder="Enter Number b/w 1-30"
+      required
+    />
+    <!-- if number out of range then invalid -->
+  </body>
+</html>

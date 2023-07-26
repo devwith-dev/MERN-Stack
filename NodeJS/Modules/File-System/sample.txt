@@ -1,0 +1,1 @@
+Hello There! This is the data inside the file sample.

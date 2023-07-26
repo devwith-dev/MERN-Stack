@@ -1,0 +1,56 @@
+
+<!-- FlexBoxing
+
+In flexboxing the parent container has to be set as Flex Container then all its children div become 
+Flex Items and then we can cotrol the posn of chldren accoring to the properties of parent.
+
+Parent Properties :-
+
+ flex-direction -> How we want the items to be moved like from left to right or top to bottom
+       1) row (left to right) - ABC
+       2) row reverse (right to left) - CBA
+       3) column (top to bottom, on top of each other) - A
+                                                         B
+                                                         C
+       4) column reverse (bottom to top) - C
+                                           B
+                                           A
+
+ align-items -> how we want the children to be aligned on the cross axis
+
+ justify-content -> we use this to spread the contents and use the remaining space on the main axis of the contents
+
+ flex-wrap -> if there is no space to accomodate items then move it to the next line
+
+
+Children Properties :-
+
+ flex-grow -> to control how much space a chlid can occupy
+
+ order -> determins which item has to come in which order dispite the div order in html
+
+ align-self -> we can manipute a single item without affecting other items
+
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="child1">A</div>
+        <div class="child2">B</div>
+        <div class="child3">C</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.child1 {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  top: -20px;
+  /* negative values mean opposite side of the command */
+  position: relative;
+  z-index: 2;
+}
+
+.child2 {
+  background-color: green;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: -80px;
+  left: 100px;
+  /* The z index property can be used to order the overlayed 
+  elements (higher the number higher the top priority) */
+  z-index: 1;
+}
+
+.container {
+  border: 3px solid black;
+  width: 500px;
+}

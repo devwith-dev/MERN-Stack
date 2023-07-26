@@ -1,0 +1,11 @@
+API Stants for Application Programming Interface
+It is a set of functions that allow you to access data from a server
+It allows many diffrent kinds of applications to access data from a server
+API allows you to create your own applications from a diffrent application
+It creates a connectio between two or more applications
+API is like a waitress that waits for a request from a client
+
+Types of Web APIs:-
+
+1. Browser APIs
+2. Third Party APIs
