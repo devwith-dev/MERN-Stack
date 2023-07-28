@@ -3,18 +3,17 @@ const dec = document.getElementById("dec");
 const reset = document.getElementById("reset");
 const count = document.getElementById("count");
 
-let currCount = 0;
+let currCount;
 
 inc.addEventListener("click", function () {
   currCount = parseInt(count.innerHTML);
-  console.log(typeof(currCount));
+  console.log(typeof currCount);
   count.innerHTML = currCount + 1;
 });
 
 dec.addEventListener("click", function () {
   currCount = parseInt(count.innerHTML);
-  if(currCount>0)
-    count.innerHTML = currCount - 1;
+  if (currCount > 0) count.innerHTML = currCount - 1;
 });
 
 reset.addEventListener("click", function () {
