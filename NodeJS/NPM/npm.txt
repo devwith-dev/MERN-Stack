@@ -1,0 +1,15 @@
+What is npm and why it is used?
+npm stands for Node Package Manager. It's a library and registry for JavaScript software packages. 
+npm also has command-line tools to help you install the different packages and manage their dependencies.
+
+-local installation syntax
+
+npm install <package name>
+
+-global installation
+
+npm install -g <package name>
+
+-update package
+
+npm update <package name>

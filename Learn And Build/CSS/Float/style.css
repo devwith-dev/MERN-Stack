@@ -1,0 +1,33 @@
+*{
+    float: left;
+    margin: 10px;
+}
+
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.c{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.d{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+img{
+    width: 100px;
+    float: right;
+}

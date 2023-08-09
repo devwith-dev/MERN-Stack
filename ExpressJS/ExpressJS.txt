@@ -1,0 +1,20 @@
+Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js
+Express is a node js web application framework that provides broad features for building web and mobile applications. 
+It is used to build a single page, multipage, and hybrid web application. 
+It's a layer built on the top of the Node js that helps manage servers and routes.
+
+Why use Express JS?
+
+- It handles all low level details for us
+- It has a huge developer community
+- Data Validation
+- Templating
+- Routing
+- Session Management
+- Error Handling
+
+Roadmap ->
+ - Routing
+ - Middleware (Authentication , Authorization , Business Logic)
+ - Error Handling
+ - Template Engine (HTML ,EJS, Assets)
