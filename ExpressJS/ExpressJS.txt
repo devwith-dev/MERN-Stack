@@ -18,3 +18,19 @@ Roadmap ->
  - Middleware (Authentication , Authorization , Business Logic)
  - Error Handling
  - Template Engine (HTML ,EJS, Assets)
+
+Install Express - npm i express@version   (eg. npm i express@4.18.1)
+
+Steps to start your project:-
+
+. initialize your project in the terminal
+    npm init , 
+    -change the package name
+    -define the version
+    -add description
+    -select entry point
+    -enter test commands
+    -link git repository
+    -keywords
+    -author name (developer)
+    -licence

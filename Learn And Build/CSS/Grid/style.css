@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.a{
+    height: 200px;
+    background-color: red;
+    grid-column: 1/span2;
+}
+.b{
+    height: 200px;
+    background-color: green ;
+}
+.c{
+    height: 200px;
+    background-color: blue ;
+}
+.d{
+    height: 200px;
+    background-color: purple ;
+}
+.e{
+    height: 200px;
+    background-color: yellow;
+}
