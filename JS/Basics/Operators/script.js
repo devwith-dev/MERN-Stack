@@ -18,7 +18,21 @@ let a = 4;
 let z = ++a;
 
 let n = 0;
-while (n<10) {
-    console.log(n);
-    n++;
+while (n < 10) {
+  console.log(n);
+  n++;
 }
+
+//teranry operator with multiple conditions
+let age = 18;
+
+let result =
+  age <= 3
+    ? "What a Baby"
+    : age <= 28
+    ? "What's Up BRO"
+    : age <= 100
+    ? "Hello There Oldy"
+    : "Wow Ancient Boomer";
+
+console.log(result);
