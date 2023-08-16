@@ -30,9 +30,19 @@ const greeting = () => {
 
 greeting();
 
+var name2 = "Chad";
+console.log(name2);
 const welcome = () => {
-  console.log("Welcome Home");
+  name2 = "bob";
+};
+welcome();
+console.log(name2);
+
+const parameter = (a, b, c) => {
+  return a + b + c;
 };
 
-welcome();
+console.log(parameter(2, 9, 6));
+console.log(parameter("Hello ", "My Name is ", "Dev"));
+ 
 
