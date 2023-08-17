@@ -45,4 +45,3 @@ const parameter = (a, b, c) => {
 console.log(parameter(2, 9, 6));
 console.log(parameter("Hello ", "My Name is ", "Dev"));
  
-
