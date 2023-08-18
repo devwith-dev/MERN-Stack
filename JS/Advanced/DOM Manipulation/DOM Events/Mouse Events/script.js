@@ -79,3 +79,9 @@ mDown.addEventListener("mousedown", function () {
 rightClick.addEventListener("contextmenu", function () {
   msgElement.innerHTML = "You right clicked for context menu";
 });
+
+//12. on Copy
+
+const onCopy = () => {
+  alert("WARNING!! You cannot copy this");
+};

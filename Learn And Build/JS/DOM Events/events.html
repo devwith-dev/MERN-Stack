@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form oninput="input()">
+      <input type="text" id="na" placeholder="Enter Name" /><br />
+      <input type="number" id="a" placeholder="Enter Age" /><br />
+      <input type="email" id="e" placeholder="Enter Email" /><br />
+      <input type="text" id="c" placeholder="Enter College Name" /><br />
+      <input type="text" id="h" placeholder="Enter One Hobby" /><br />
+    </form>
+    <div>
+      <h2>Preview</h2>
+      <span>Name:</span>
+      <span id="nam"></span><br />
+      <span>Age:</span>
+      <span id="age"></span><br />
+      <span>Email:</span>
+      <span id="email"></span><br />
+      <span>College:</span>
+      <span id="college"></span><br />
+      <span>Hobby:</span>
+      <span id="hobby"></span>
+    </div>
+    <script>
+      const input = () => {
+        nam.innerHTML = na.value;
+        age.innerHTML = a.value;
+        email.innerHTML = e.value;
+        college.innerHTML = c.value;
+        hobby.innerHTML = h.value;
+      };
+    </script>
+  </body>
+</html>

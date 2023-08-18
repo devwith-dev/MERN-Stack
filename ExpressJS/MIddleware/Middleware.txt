@@ -1,0 +1,20 @@
+->Middleware are functions that have access to the request obejct(req) and the response object(res).
+->These functions are used to modify req and res objects before they are passed to the next Middleware function or the Server.
+
+Uses of Middleware:-
+
+-Authorization
+-Logging
+-Error Handling
+-Rate Limiting
+-Data Validation
+-Any Business Logic
+
+
+User(request)------->Middleware-1(Login)------->Middleware-2(isVerified)------->Middleware-3(isAdmin)------->Server
+     ^                    next()                         next()                         next()                 |
+     |_________________________________________________________________________________________________________|
+                                                     response
+
+
+->the next() function allows to pass onto the next Middleware.
