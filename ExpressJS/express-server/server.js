@@ -27,7 +27,7 @@ app.use(express.json());
 
 // home route
 app.get("/", (req, res) => {
-  res.send("Home Route");
+  res.send("Welcome to Home Route");
 });
 
 // 1. GET method to fetch all posts
@@ -137,6 +137,11 @@ app.delete("/posts/:id", (req, res) => {
     res.json({ message: "Post Deleted Successfully" });
   });
   // res.send("delete post route");
+});
+
+//Error message for incorrect path
+app.use((req, res) => {
+  res.send("404 Path Not Found");
 });
 
 //creating a server

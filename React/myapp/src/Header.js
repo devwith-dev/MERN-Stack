@@ -1,13 +1,10 @@
 import React from "react";
-import About from "./About";
-import Contact from "./Contact";
 import "./Header.css";
 import { Outlet, Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
-      <h1>Home</h1>
       <nav>
         <ul className="xyz">
           <li>

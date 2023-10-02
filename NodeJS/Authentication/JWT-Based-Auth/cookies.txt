@@ -1,0 +1,10 @@
+Cookies are a small tect file that is stored on your browser which contains data from
+the websites that you visit.
+
+- Cookies are used in session management.
+- Cookies consist of name, value and optional attributes.
+- We dont need any package to install Cookies.
+- But we need a package (cookie-parser) to send back the cookie back to the server upon each request.
+- Cookies can also be used to track user activity on the websites.
+- We use cookies to store data about the current user.
+

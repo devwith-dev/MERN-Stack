@@ -1,0 +1,10 @@
+Types of Auth:-
+
+- Low Level Authentication                          |
+- Low Level Authentication Encrypted                |
+- Cookie Base Authentication                        | security
+- Session Based Authentication                      |   
+- Session Based Authentication with Database        |
+- Token (JWT) Base Authentication                   |
+- Token (JWT) Base Authentication Client            |
+                                                    V
